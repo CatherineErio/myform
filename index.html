@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">  <fieldset>
+        <legend>Your Address</legend>
+        <div>
+          <p class="space ">  <label for="fname">First Name:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="" /></p>
+        </div>
+
+        <div>
+          <p class="space">  <label for="lname">Last Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="" /></p>
+        </div>
+
+        <div>
+            <p class="space"><label for="street">Street:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="" /></p>
+        </div>
+
+        <div>
+           <p class="space"> <label for="city">City:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="" /></p>
+        </div>
+    </fieldset>
+
+
+    <fieldset>
+
+        <legend>Additional details</legend>
+
+        <div>
+           <p class="space"> <label for="biography">Biography:</label>
+            <textarea name="biography" id="biography" cols="30" rows="2"></textarea></p>
+        </div>
+        <div>
+            <p class="space"><label for="Image">Image</label> 
+                <input type="file" /></p>
+          </div>
+        <div>
+           <p class="space"> <label for="age">Age Group </label>
+            <select name="age" id="age">
+              <option value="select">0 to 9 Years</option>
+      
+                <option value="0 to 9 Years">0 to 9 Years</option>
+                <option value="10 to 19 Years">10 to 19 Years</option>
+                <option value="20 to 29 Years">20 to 29 Years</option>
+                <option value="30 to 39 Years">30 to 39 Years</option>
+                <option value="40 to 49 Years">40 to 49 Years</option>
+                <option value="50 and above">50 and above</option>
+            </select></p>
+        </div>
+    </fieldset> 
+
+    <fieldset>
+    <legend>Interests</legend>
+    <div>
+      <p class="space">  <label for="hobby">Hobbies</label> <br />
+        <input type="checkbox" name="Playing soccer" value="Playing soccer" /> Playing soccer <br />
+        <input type="checkbox" name="Dancing" value="Dancing" /> Dancing <br />
+        <input type="checkbox" name="Gardening" value=" Gardening" /> Gardening <br />
+        <input type="checkbox" name="Watching Movies" value=" Watching Movies" /> Watching Movies <br /></p>
+    </div>
+
+    <div>
+       <p class="space"> <label for="Favourite car">Favourite Car </label>
+        <select name="Favourite Car" id="Favourite Car">
+          <option value="select">volvo</option>
+  
+            <option value="volvo">volvo</option>
+            <option value="Toyota ">Toyota </option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Tesla">Tesla</option>
+            <option value="Sienna">Sienna</option>
+            <option value="Rolls Royce">Rolls Royce</option>
+            </select></p>
+    </div>
+
+
+    <div>
+      <p class="space">  <label for="public transport">Favourite Public transport </label>
+        <select name="Public transport" id="public transport">
+          <option value="select"> <strong>Ground</strong></option>
+          <optgroup label="Ground">
+            <option value="Train">Train</option>
+            <option value="Bus">Bus</option>
+          
+          </optgroup>
+
+          <optgroup label="Water">
+            <option value="Ferry">Ferry</option>
+            <option value="Canoe">Canoe</option>
+          
+          </optgroup>
+        </select></p>
+    </div>
+  </fieldset>
+</form>
+  
+</body>
+</html>
